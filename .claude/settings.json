@@ -46,7 +46,11 @@
       "Bash(sed -i 's|_dossierProgress = MDUIKit.Size\\(MDUIKit.Label\\(bar, \"\", 24, MDUIKit.OnDark,\\\\n            TextAnchor.MiddleRight\\), -1f, 190f, 0f, 1f\\);|X|' MDGameplay.cs)",
       "Bash(sed -i 's|TextAnchor.MiddleRight\\), -1f, 190f, 0f, 1f\\);|TextAnchor.MiddleRight\\), -1f, 158f, 0f, 1f\\);|' MDGameplay.cs)",
       "Bash(sed -i 's|MDUIKit.Size\\(MDUIKit.Label\\(bar, \"COMPANY DOSSIER\", 38, MDUIKit.Brass,|MDUIKit.Size\\(MDUIKit.Label\\(bar, \"COMPANY DOSSIER\", 34, MDUIKit.Brass,|' MDGameplay.cs)",
-      "Bash(sed -i 's|MDUIKit.Size\\(card.parent as RectTransform, revealed ? 210f : 160f\\);|MDUIKit.Size\\(card.parent as RectTransform, revealed ? 260f : 170f\\);|' MDGameplay.cs)"
+      "Bash(sed -i 's|MDUIKit.Size\\(card.parent as RectTransform, revealed ? 210f : 160f\\);|MDUIKit.Size\\(card.parent as RectTransform, revealed ? 260f : 170f\\);|' MDGameplay.cs)",
+      "Bash(ls -la \"C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/\" 2>&1 | head -20; echo \"=== java ===\"; ls \"C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/bin/java.exe\" 2>&1)",
+      "Read(//c/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/**)",
+      "Read(//c/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/bin/**)",
+      "PowerShell(Get-Process Unity -ErrorAction SilentlyContinue)"
     ]
   }
 }
